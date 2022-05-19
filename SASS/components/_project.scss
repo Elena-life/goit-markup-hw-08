@@ -1,0 +1,23 @@
+.project {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  @media screen and (min-width: 480px) {
+    padding: 60px 0;
+  }
+  @media screen and (min-width: 768px) {
+    padding: 60px 0;
+  }
+  @media screen and (min-width: 1200px) {
+    padding: 94px 0;
+  }
+  @media screen and (max-width: 1200px) {
+    flex-wrap: wrap;
+    
+    align-items: center;
+
+    }
+}
+
+.project__item:not(:last-child) {
+  margin-right: 8px;
+}
