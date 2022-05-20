@@ -1,16 +1,3 @@
-.feature {
-  padding-top: 94px;
-  @media screen and (min-width: 480px) {
-    padding: 60px 0;
-  }
-  @media screen and (min-width: 768px) {
-    padding: 60px 0;
-  }
-  @media screen and (min-width: 1200px) {
-    padding: 94px 0;
-  }
-}
-
 .feature__list {
   margin-top: 0;
   margin-bottom: 0;
@@ -32,6 +19,7 @@
 }
 
 .feature__block {
+    max-width: 450px;
     height: 120px;
     margin-bottom: 30px;
     display: flex;
@@ -39,9 +27,6 @@
     align-items: center;
     background-color: var(--primery-grey-color);
 
-  @media screen and (min-width: 480px) {
-    width: 450px;
-  }
   @media screen and (min-width: 768px) {
     width: 354px;
   }
@@ -51,10 +36,10 @@
 }
 
 .feature__item {
-  @media screen and (min-width: 480px) {
-    width: 450px;
+ 
+    max-width: 450px;
     margin-right: 0;
-  }
+  
   @media screen and (min-width: 768px) {
     width: 354px;
     margin: 15px;
@@ -70,12 +55,10 @@
   text-transform: uppercase;
   color: var(--title-text-color);
   @include font(14px, 1.14, 700);
+  text-align: center;
 
-  @media screen and (min-width: 480px) {
-    text-align: center;
-  }
   @media screen and (min-width: 768px) {
-    text-align: center;
+    text-align: start;
   }
 }
 
