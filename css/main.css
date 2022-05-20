@@ -365,7 +365,7 @@ img {
 
 .section__title {
   margin-top: 0;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   color: var(--title-text-color);
   /*font-weight: 700;
   font-size: 36px;
@@ -397,6 +397,7 @@ img {
     font-size: 36px;
     line-height: 1.17;
     font-weight: 700;
+    margin-bottom: 50px;
   }
 }
 
